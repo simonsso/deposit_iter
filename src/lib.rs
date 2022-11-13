@@ -1,3 +1,6 @@
+#![no_std]
+
+
 #[derive(Default)]
 pub struct Deposit {
     times: Option<usize>,
